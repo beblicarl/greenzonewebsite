@@ -1,4 +1,293 @@
 body{
+    background-color: #ffffff;
+}
+
+nav{
     width: 100%;
-    height: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #E6F0EF;
+    padding-top: 13px;
+   
+    
+}
+
+
+
+.fas{
+    color: #38815D;
+}
+
+.links{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+}
+.links a{
+    text-decoration: none;
+    color: #38815D;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+.logo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo a{
+    padding-left: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 16px;
+    color: #38815D;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.logo li{
+    list-style: none;
+    font-size: 35px;
+}
+
+.sign-in{
+    background-color: #38815D;
+    
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+    
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+header{
+    background-color: #F4F9F8;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.left-side{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;   
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.left-side h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600px;
+    font-size: 60px;
+    padding-right: 69px;
+    color: #152C23;
+}
+.left-side p{
+    padding-right: 94px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 1.2em;
+    color: #71899C;
+    
+}
+button.explore{
+    margin-right: 300px;
+    padding: 12px 20px;
+    margin-bottom: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #38815D;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+button .fas{
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.right-side{
+    width:50%; 
+    height: 600px;   
+}
+.right-side img{
+    width: 100%;
+    height: 600px;
+}
+
+.plant-shop{
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+}
+
+.plant-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+.cactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 60%;
+    height: 500px;
+    background-color: #E6F0EF;
+}
+.cactus-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 16px;
+    position: absolute;
+    padding-bottom: 370px;
+    
+    
+}
+.cactus-shop p{
+    line-height: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.cactus-shop h1{
+    line-height: 0px;
+    color: #192D33;
+    font-family: serif;
+    font-weight: 600;
+    
+}
+
+.cactus-shop a{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 15px;
+    color:#528482;
+    border-bottom: 3px solid #528482;
+    padding-bottom: 10px;
+}
+.plant-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    justify-content: space-between;
+}
+
+.indoor-plant{
+    background-color: #E6F0EF;
+    display: flex;
+    width: 65%;
+    height: 230px;
+    margin-left: 20px;
+}
+
+.indoor-shop{
+   display: flex;
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 40px;
+   
+  
+   
+    
+}
+.indoor-shop p{
+    position: absolute;
+    margin-top: -40px;
+    margin-right: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.indoor-shop a{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #528482;
+    border-bottom: 3px solid #528482;
+    padding-bottom: 10px;
+    margin-right: 46px;
+    
+}
+
+.indoor-plant h1{
+    padding-top: 27px;
+    color: #192D33;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.outdoor-plant{
+    background-color:#E6F0EF;
+    display: flex;
+    width: 65%;
+    height: 230px;
+    margin-left: 20px;
+    
+    
+}
+
+.outdoor-shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    
+    
+}
+
+
+.outdoor-shop p{
+    position: absolute;
+    margin-top: -60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-right: 90px;
+    
+}
+
+.outdoor-shop h1{
+    color: #192D33 ;
+    font-family: serif;
+    font-weight: 600;
+    
+}
+
+.outdoor-shop a{
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #528482;
+    border-bottom: 3px solid #528482; 
+    padding-bottom: 10px;
+    margin-right: 69px;  
 }
