@@ -836,17 +836,21 @@ button .fas{
     width: 100%;
     height: 500px;
     background-color: #F4F9F8;
-    padding-left: 300px;
-    padding-top: 160px;
+    
 }
 .magic-img{
     position: relative;
     width: 700px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 130px;
+    
 }
 
 .magic-img img{
     display: block;
     width: 100%;
+    
 }
 
 .magic-overlay{
@@ -896,4 +900,202 @@ button .fas{
 
 li .fas{
     color: #ffffff;
+    padding-left:  5px;
 }
+
+/*FROM OUR BLOG SECTION*/
+.blog{
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 850px;
+    padding-top: 70px;
+}
+
+.blog h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1A2F26;
+}
+.blog p{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #98AEC0;
+}
+
+.division{
+    width: 100%;
+    display: flex;
+}
+.lefty{
+    text-align: left;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.righty{
+    width: 50%;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.righty h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    color: #112A23;
+}
+
+.righty p{
+    color:#94907D;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.righty button{
+    margin-top: 13px;
+    padding: 17px 23px;
+    background-color: #38815D;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+
+}
+.name-date {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: -20px;
+    color: #C2B6AB;
+}
+
+.name-date p{
+    color: #C2B6AB;
+}
+
+/*MINI-FOOTER*/
+.ending{
+    background-color: #152C23;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.newsletter h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #F9FCFC;
+    font-size: 30px;
+    
+}
+.newsletter p{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    color: #B3BEB2;
+}
+.newsletter form{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+input{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: #38815D;
+    font-weight: 600;
+    border-color:#38815D;
+    border : 3px; 
+    
+
+}
+label{
+    background-color: #38815D;
+    padding:4px;
+    margin-left: -4px;
+    color: white; 
+    position: absolute;
+  }
+  .site-map h1{
+      font-size: 14px;
+      font-weight: 800;
+      font-family: sans-serif;
+      color: #F0DECB;
+  }
+
+  .site-links a{
+      text-decoration: none;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      line-height: 30px;
+      font-size: 11px;
+      font-weight: 700;
+      font-family: sans-serif;
+      color: #B4C8CB;
+  }
+  .about-us h1{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #F0DECB;
+  }
+  .about-links a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: #B4C8CB;
+  }
+  .follow h1{
+    font-size: 14px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: center;
+    color: #F0DECB;
+  }
+  .new-links a{
+    text-decoration: none;
+    color: black; 
+    line-height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #B4C8CB;
+  }
+footer{
+    position: absolute;
+    width: 98.8%;
+    background-color: #152C23;
+
+}
+
+footer hr{
+    width:50%;
+    color: #B4C8CB
+  
+}
+  footer p{
+      text-align: center;
+      font-size: 12px;
+      margin-bottom: 30px;
+      font-weight: 800;
+      color: #B4C8CB;
+      
+  }
