@@ -1,0 +1,376 @@
+@media (max-width: 700px){
+
+    body{
+        width: 100%;
+    }
+
+    /*NAV BAR*/
+    nav{
+        width: 100%;
+        height: 35px;
+    }
+    .logo {
+        width: 20%;
+    }
+    .logo a{
+        font-size: 14px;
+    }
+    .logo li{
+        font-size: 10px;
+    }
+    .links{
+        width: 60%;
+    }
+     .sign-in{
+        width: 20%;
+     }
+     .sign-in a{
+         font-size: 10px;
+     }
+    .links a{
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 10px;
+        gap: 8px;
+    }
+    /*HEADER*/
+
+   .left-side{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       margin-top: -10px;
+   }
+   .left-side h1{
+       font-size: 20px;
+   }
+   .left-side p{
+       font-size: 11px;
+       line-height: 20px;
+   }
+   button.explore{
+       margin-top: -10px;
+       font-size: 12px;
+       padding: 10px 13px;
+   }
+   .threeside{
+       display: none;
+   }
+
+   .right-side img{
+       height: 50%;
+       width: 100%;
+       padding-top: 150px;
+   }
+   /*PLANT SHOP SECTION*/
+   /*LEFT SIDE*/
+   .plant-shop{
+       width: 100%;
+       height: 300px;
+   }
+
+   .plant-left{
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+   }
+   .cactus{
+       height: 300px;    
+       width: 90%;
+   }
+
+   .cactus-shop{
+       padding-bottom: 200px;
+   }
+
+   .cactus-shop h1{
+       font-size: 20px;
+   }
+
+   .cactus-shop p{
+       font-size: 11px;
+   }
+   .cactus img{
+       width: 20%;
+       height: 40%;
+   }
+
+   /*RIGHT SIDE*/
+   .plant-right{
+       width: 50%;
+       height: 300px;
+   }
+   .indoor-plant{
+       height: 40%;
+       width: 80%;
+   }
+   .indoor-shop{
+       padding-top: 15px;
+   }
+   .indoor-shop p{
+       font-size: 11px;
+       margin-top: -90px;
+       padding-left: 100px;
+   }
+   .indoor-shop a{
+       font-size: 11px;
+       position: absolute;
+       padding-top: 50px;
+       margin-left: 100px;
+
+   }
+   .indoor-shop h1{
+       font-size: 20px;
+       position: absolute;
+       padding-bottom: 80px;
+       padding-left: 50px;
+     
+   }
+   .outdoor-plant{
+       height: 40%;
+       width: 80%;
+   }
+   .outdoor-shop p{
+       font-size: 11px;
+       padding-left: 70px;
+
+   }
+   .outdoor-shop a{
+       font-size: 11px;
+       position: absolute;
+       margin-top: 70px;
+       margin-left: 50px;
+       
+   }
+    .outdoor-shop h1{
+        padding-left: 30px;
+        font-size: 20px;
+        position: absolute;
+       
+   }
+
+
+    /*CROCHET SECTION*/
+    .crochet{
+        width: 100%;
+        height: auto;
+    }
+    .crochet-left{
+        width: 50%;
+    }
+    .crochet-left img{
+        width: 80%;
+        height: 80%;
+        
+    }
+    .crochet-right{
+        width: 50%;
+        margin-top: -60px;
+    }
+      /*small-b0x*/
+    .small-box h1{
+        font-size: 20px;
+    }
+    .small-box p{
+        font-size: 11px;
+    }
+      /*services*/
+    .services{
+        width: 100%;
+        display: flex;
+        gap: 5%;
+    }
+    .free-shipping{
+        width: 40%;
+        
+        
+    }
+    .free-shipping p{
+        font-size: 10px;
+    }
+    .free-shipping h1{
+        font-size: 17px;
+    }
+    .moneyback{
+        width: 40%;
+        
+    }
+    .moneyback h1{
+        font-size: 17px;
+    }
+    .moneyback p{
+        font-size: 10px;
+    }
+    .plantcare{
+        width: 40%;
+        margin-top: 5%;
+    }
+    .plantcare h1{
+        font-size: 17px;
+    }
+    .plantcare p{
+        font-size: 10px;
+    }
+    .gardening{
+        width: 40%;
+        margin-top: 5%;
+    }
+    .gardening p{
+        font-size: 10px;
+    }
+    .gardening h1{
+        font-size: 17px;
+    }
+
+    /*DISCOVER CATEGORY*/
+    .discover{
+        width: 100%;
+        height: auto;
+    }
+    .discover h1{
+        font-size: 20px;
+    }
+    .discover p{
+        font-size: 11px;
+    }
+
+    .plant-images{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%
+    }
+    .imageone{
+        margin-left: 30px;
+        
+       
+    }
+    .imagetwo{
+        margin-left: -0px;
+        margin-top: 20px;
+    }
+    .imagethree{
+        margin-left: -0px;
+    }
+    .imagefour{
+        margin-left: -20px;
+        padding-bottom: 20px;
+    }
+
+    /*PRODUCTS SECTION*/
+    .products{
+        width: 100%;
+        height: auto;
+    }
+
+    .products p{
+        font-size: 11px;
+    }
+    .products h1{
+        font-size: 20px;
+    }
+    .sales{
+        width: 100%;
+        gap: 5%;
+    }
+    .sales h3{
+        font-size: 11px;
+        padding-left: 10px;
+    }
+    .cacti img{
+        width: 150px;
+        height: 150px;
+    }
+    .oasis img{
+        width: 150px;
+        height: 150px;
+    }
+    .tiger img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    /*DEALS OF THE DAY SECTION*/
+    .deals{
+        width: 100%;
+    }
+    .deals h1{
+        font-size: 30px;
+    }
+    .deals p{
+        font-size: 12px;
+    }
+
+    .break-away{
+        width: 100%;
+    }
+    .left-portion{
+        width: 60%;
+    }
+    .left-portion h2{
+        font-size: 15px;
+        
+        
+    }
+    .left-portion p{
+        font-size: 11.5px;
+        
+        
+    }
+    #left{
+        font-size: 12px;
+        padding-right: -50px;
+    }
+    #right{
+        font-size: 12px;
+        padding-right: -50px;
+        
+    }
+    .days p{
+        font-size: 10px;
+    }
+    .hours p{
+        font-size: 10px;
+    }
+    .mins p{
+        font-size: 10px;
+    }
+    .seconds p{
+        font-size: 10px;
+    }
+    .buy{
+        padding: 10px 20px;
+        font-size: 10px;
+        margin-left: 70px;
+    }
+    .right-portion{
+        width: 35%;
+    }
+    .right-portion img{
+        height: 100%;
+        width: 100%;
+    }
+    /*MAGIC SECTION*/
+    .magic{
+        width: 100%;
+        height: auto;
+    }
+    .magic-img{
+        width: 400px;
+        margin-left: 60px;
+        
+    }
+    .magic-overlay{
+        font-size: 10px;
+    }
+    .magic-title{
+        line-height: 40px;
+    }
+   .magic-title li{
+    margin-right: 130px;
+
+   }
+        
+    
+
+}

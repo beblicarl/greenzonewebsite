@@ -1,19 +1,15 @@
 body{
     background-color: #ffffff;
 }
-
+/*NAV BAR*/
 nav{
     width: 100%;
     height: 60px;
     display: flex;
     background-color: #E6F0EF;
     padding-top: 13px;
-   
-    
+       
 }
-
-
-
 .fas{
     color: #38815D;
 }
@@ -74,6 +70,8 @@ nav{
     font-size: 12px;
 }
 
+/*HEADER*/
+
 header{
     background-color: #F4F9F8;
     width: 100%;
@@ -130,6 +128,8 @@ button .fas{
     width: 100%;
     height: 600px;
 }
+
+/*PLANT SHOP SECTION*/
 
 .plant-shop{
     background-color: #ffffff;
@@ -212,10 +212,7 @@ button .fas{
    justify-content: center;
    align-items: center;
    padding-top: 40px;
-   
-  
-   
-    
+       
 }
 .indoor-shop p{
     position: absolute;
@@ -292,6 +289,7 @@ button .fas{
     margin-right: 69px;  
 }
 
+/*CROCHET SECTION*/
 .crochet{
     background-color: #F4F9F8;
     margin-top: 100px;
@@ -359,7 +357,6 @@ button .fas{
 .free-shipping p{
     font-family: sans-serif;
     font-size: 13px;
-    
     font-weight: 560;
    
 }
@@ -451,6 +448,7 @@ button .fas{
     border-radius: 12px;
     margin-top: 10px;
 }
+/*DISCOVER CATEGORY*/
 
 .discover{
     background-color: #ffffff;
