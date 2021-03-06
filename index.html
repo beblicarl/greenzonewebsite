@@ -5,14 +5,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"> 
-       <link rel="stylesheet" href="responsivity.css">
+        <link rel="stylesheet" href="responsivity.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script src="https://kit.fontawesome.com/dec4bff268.js" crossorigin="anonymous"></script>
 
     </head>
     <body>
         <nav>
             <div class="logo">
-                <li id="green"><i class="fas fa-spa"></i></li>
+                <i class="fas fa-spa"></i>
                 <a href="#">Greenzone</a>
             </div>
             <ul class="links">
@@ -31,19 +32,19 @@
                 <p>Bring a touch of nature into your home with a beautiful <br> collection of plants</p>
                 <button class="explore">EXPLORE MORE <i class="fas fa-angle-right"></i></button>
                 <div class="small-images">
-                    <img class="oneside" src="./img/one.png" alt="one">
-                    <img class="twoside" src="./img/two.png" alt="two">
+                    <img data-aos="fade-in"class="oneside" src="./img/one.png" alt="one">
+                    <img data-aos="fade-in"class="twoside" src="./img/two.png" alt="two">
                     <img class="threeside" src="./img/three.png" alt="three">
 
                 </div>
             </div>
             <div class="right-side">
-                <img src="./img/leaves.png" alt="plant">
+                <img data-aos="slide-left"src="./img/leaves.png" alt="plant">
             </div>
         </header>
         <section class="plant-shop">
             <div class="plant-left">
-                <div class="cactus">
+                <div data-aos="slide-right" class="cactus">
                     <div class="cactus-shop">
                         <p>50% OFF</p>
                         <h1>Cactus Collection</h1>
@@ -53,7 +54,7 @@
                 </div>
             </div>
             <div class="plant-right">
-                <div class="indoor-plant">
+                <div data-aos="slide=down" class="indoor-plant">
                     <img src="./img/plant-two.png" alt="plant-two">
                     <div class="indoor-shop">
                         <p>50% OFF</p>
@@ -62,7 +63,7 @@
                     </div>
 
                 </div>
-                <div class="outdoor-plant">
+                <div data-aos="slide-up" class="outdoor-plant">
                     <img src="./img/plant-three.png" alt="plant-three">
                     <div class="outdoor-shop">
                         <p>50% OFF</p>
@@ -75,7 +76,7 @@
         </section>
         <section class="crochet">
             <div class="crochet-left">
-                <img src="./img/crochet.png" alt="crochet">
+                <img data-aos="fade-in"src="./img/crochet.png" alt="crochet">
             </div>
             <div class="crochet-right">
                 <div class="small-box">
@@ -155,7 +156,7 @@
         <section class="products">
             <h1>Our Products</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Provident ipsa labore impedit expedita.</p>
-            <div class="sales">
+            <div data-aos="zoom-in" class="sales">
                 <div class="cacti">
                     <img src="./img/cacti(1).png" alt="cacti">
                     <h3>$60.00</h3>
@@ -173,7 +174,7 @@
 
         </section>
         <section class="deals">
-            <h1>Deals Of The Day</h1>
+            <h1 data-aos="ease-in">Deals Of The Day</h1>
             <p>Grab the best offer available today before its gone. We have a huge collection of <br> cactuses, money plants and other indoor plants that will brighten up your living room</p>
             <div class="break-away">
                 <div class="left-portion">
@@ -243,7 +244,7 @@
             <p>Check the latest news, tutorials and updates from our blog. We have a <br> huge collection of cactuses, money plants and other indoor plants</p>
             <div class="division">
                 <div class="lefty">
-                    <img src="./img/basket.png" alt="flower in basket">
+                    <img data-aos="zoom-in"src="./img/basket.png" alt="flower in basket">
                 </div>
                 <div class="righty">
                     <h1>Choosing The Right Indoors <br> Plants</h1>
@@ -263,10 +264,12 @@
             <div class="newsletter">
                 <h1>Our Newsletter</h1>
                 <p>Want to get the latest updates and discounts?<br>Subscribe to our mailing list</p>
-                <form>
-                    <input class="email" type= "email" id="email" placeholder ="Email">
-                    <label for= "email">Subscribe</label>
-                </form>
+                <button>
+                    <form>
+                       <input class="email" type= "email" id="email" placeholder ="Email">
+                      <label for= "email">Subscribe</label>
+                    </form>
+                  </button>
             </div>
             <div class="site-map">
                 <h1>SITE MAP</h1>
@@ -300,5 +303,11 @@
             <hr>  
             <p>&#169; Copyright 2021 Reserved by Carl</p>
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            duration:"2000"
+          });
+        </script>
     </body>
 </html>

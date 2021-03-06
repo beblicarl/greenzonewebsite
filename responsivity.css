@@ -159,8 +159,8 @@
         width: 50%;
     }
     .crochet-left img{
-        width: 80%;
-        height: 80%;
+        width: 240px;
+        height: 300px;
         
     }
     .crochet-right{
@@ -370,7 +370,92 @@
     margin-right: 130px;
 
    }
+    /*FROM OUR BLOG SECTION*/
+    .blog{
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .blog h1{
+        font-size: 20px;
+    }
+    .blog p{
+        font-size: 11px;
+    }
+    .division{
+        width: 100%;
+        height: 90%;
+    }
+    .lefty{
+        width: 40%;
+    }
+    .lefty img{
+        width: 200px;
+        height: 250px;
+        padding-top: 80px;
+    }
+    .righty{
+        width: 60%;
+        margin-top: -70px;
         
-    
+    }
+    .righty h1{
+        font-size: 15px;
+    }
+    .righty p{
+        font-size: 10px;
+    }
+    .righty button{
+        padding: 10px 20px;
+    }
+    /*NEWSLETTER SECTION*/
+    .ending{
+        width: 100%;
+    }
+    .newsletter{
+        width: 30%;
+    }
 
+    .newsletter h1{
+        font-size: 20px;
+    }
+    .newsletter p{
+        font-size: 10.5px;
+    }
+    .site-map{
+        margin-left: 10px;
+    }
+    .follow{
+        margin-right: -12px;
+    }
+    .site-map h1{
+        font-size: 12px;
+    }
+    .about-us h1{
+        font-size: 12px;
+    }
+    .follow h1{
+        font-size: 12px;
+    }
+    .new-links a{
+        font-size: 11px;
+    }
+
+    footer{
+        width: 100%;
+    }
+    .newsletter button{
+        margin-right: -60px;
+        padding-bottom: -10px;
+    }
+    
+    input{
+        font-size: 10px;
+        padding-right: -100px;
+        
+    }
+    label{
+        font-size: 10px;
+        margin-right: -0px;
+    }
 }
